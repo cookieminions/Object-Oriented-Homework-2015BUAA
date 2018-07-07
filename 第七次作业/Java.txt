@@ -1,0 +1,60 @@
+if(HopeOnes.size()==0)	HopeOnes.add(taxis[i]);
+else{
+	if(taxis[i].getCredit()==HopeOnes.get(0).getCredit())	HopeOnes.add(taxis[i]);
+	else if(taxis[i].getCredit()>HopeOnes.get(0).getCredit()){
+		HopeOnes.removeAllElements();	
+		HopeOnes.add(taxis[i]);
+	}
+}
+
+taxi-58 MoveToC (50,19) 864.0
+taxi-58 MoveToD (50,20) 866.0
+taxi-58 MoveToD (49,20) 868.0
+taxi-58 MoveToD (48,20) 870.0
+taxi-58 MoveToD (47,20) 872.0
+taxi-58 MoveToD (46,20) 874.0
+taxi-58 MoveToD (45,20) 876.0
+taxi-58 MoveToD (44,20) 878.0
+taxi-58 MoveToD (43,20) 880.0
+taxi-58 MoveToD (42,20) 882.0
+taxi-58 MoveToD (41,20) 884.0
+taxi-58 MoveToD (40,20) 886.0
+taxi-58 MoveToD (39,20) 888.0
+taxi-58 MoveToD (38,20) 890.0
+taxi-58 MoveToD (37,20) 892.0
+taxi-58 MoveToD (36,20) 894.0
+taxi-58 MoveToD (35,20) 896.0
+taxi-58 MoveToD (34,20) 898.0
+taxi-58 MoveToD (33,20) 900.0
+taxi-58 MoveToD (32,20) 902.0
+taxi-58 MoveToD (31,20) 904.0
+taxi-58 MoveToD (30,20) 906.0
+taxi-58 MoveToD (29,20) 908.0
+taxi-58 MoveToD (28,20) 910.0
+taxi-58 MoveToD (27,20) 912.0
+taxi-58 MoveToD (26,20) 914.0
+taxi-58 MoveToD (25,20) 916.0
+taxi-58 MoveToD (24,20) 918.0
+taxi-58 MoveToD (23,20) 920.0
+taxi-58 MoveToD (22,20) 922.0
+taxi-58 MoveToD (21,20) 924.0
+taxi-58 MoveToD (20,20) 926.0
+taxi-58 MoveToD (19,20) 928.0
+taxi-58 MoveToD (18,20) 930.0
+taxi-58 MoveToD (17,20) 932.0
+taxi-58 MoveToD (16,20) 934.0
+taxi-58 MoveToD (15,20) 936.0
+taxi-58 MoveToD (14,20) 938.0
+taxi-58 MoveToD (13,20) 940.0
+taxi-58 MoveToD (12,20) 942.0
+taxi-58 MoveToD (11,20) 944.0
+taxi-58 MoveToD (10,20) 946.0
+taxi-58 MoveToD (9,20) 948.0
+taxi-58 MoveToD (8,20) 950.0
+taxi-58 MoveToD (7,20) 952.0
+taxi-58 MoveToD (6,20) 954.0
+taxi-58 MoveToD (5,20) 956.0
+taxi-58 MoveToD (4,20) 958.0
+taxi-58 MoveToD (4,21) 960.0
+get destination
+

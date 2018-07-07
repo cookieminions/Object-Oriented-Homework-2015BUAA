@@ -1,0 +1,40 @@
+IF f:\movie\test size-changed THEN record-detail
+IF f:\movie\test\2.txt size-changed THEN record-detail
+IF f:\movie\test\4 size-changed THEN record-detail
+start
+
+IF f:\movie\test\2.txt Modified THEN record-detail
+start
+
+IF f:\movie\test\2.txt Modified THEN record-detail
+IF f:\movie\test Modified THEN record-detail
+start
+
+IF f:\movie\test\2.txt path-changed THEN record-detail
+IF f:\movie\test path-changed THEN record-detail
+start
+
+IF f:\movie\test\2.txt renamed THEN record-detail
+start
+
+IF f:\movie\test\a size-changed THEN record-detail
+IF f:\movie\test\a size-changed THEN record-summary
+start
+
+IF f:\movie\test\2.txt path-changed THEN recover
+IF f:\movie\test\2.txt path-changed THEN record-detail
+
+IF f:\movie\test size-changed THEN record-detail
+
+IF [F:\movie\test] renamed THEN record-summary
+IF [F:\movie\test] renamed THEN record-detail
+IF [F:\movie\test] renamed THEN recover
+IF [F:\movie\test] Modified THEN record-summary
+IF [F:\movie\test] Modified THEN record-detail
+IF [F:\movie\test] Modified THEN recover
+IF [F:\movie\test] path-changed THEN record-summary
+IF [F:\movie\test] path-changed THEN record-detail
+IF [F:\movie\test] path-changed THEN recover
+IF [F:\movie\test] size-changed THEN record-summary
+IF [F:\movie\test] size-changed THEN record-detail
+IF [F:\movie\test] size-changed THEN recover

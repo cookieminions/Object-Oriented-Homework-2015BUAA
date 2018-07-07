@@ -1,0 +1,7 @@
+monitor: f:\movie\test; Modified f:\movie\test lastModified: 1491929473925, f:\movie\test currModified: 1491933523934
+monitor: f:\movie\test; Modified f:\movie\test lastModified: 1491933523934, f:\movie\test currModified: 1491933533936
+monitor: f:\movie\test; Modified f:\movie\test lastModified: 1491933533936, f:\movie\test currModified: 1491933537875
+monitor: f:\movie\test; Modified f:\movie\test\a lastModified: 1491929402703, f:\movie\test\a currModified: 1491933537875
+monitor: f:\movie\test; Modified f:\movie\test lastModified: 1491933537875, f:\movie\test currModified: 1491933538938
+monitor: f:\movie\test; Modified f:\movie\test\a lastModified: 1491933537875, f:\movie\test\a currModified: 1491933541352
+monitor: f:\movie\test; Modified f:\movie\test\a\b lastModified: 1491923264979, f:\movie\test\a\b currModified: 1491933541352

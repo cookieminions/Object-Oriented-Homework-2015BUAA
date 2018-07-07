@@ -1,0 +1,15 @@
+题目1
+
+在transferMoney()方法中，可能出现fromAccount 与 toAccount 互相等待对方锁而发生死锁的现象
+
+解决方法：
+
+将 
+
+synchronized (fromAccount) {
+
+            synchronized (toAccount) {
+
+删除
+
+在Account类中，给getBalance()方法，debit()方法，credit()方法前加上 synchronized 锁

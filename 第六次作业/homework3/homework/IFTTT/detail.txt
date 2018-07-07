@@ -1,0 +1,4 @@
+monitor: f:\movie\test; size-changed null lastsize: 0, f:\movie\test\233 currsize: 0
+monitor: f:\movie\test; size-changed null lastsize: 0, f:\movie\test\666.txt currsize: 0
+monitor: f:\movie\test; size-changed f:\movie\test\233 lastsize: 0, null currsize: 0
+monitor: f:\movie\test; size-changed f:\movie\test\666.txt lastsize: 0, null currsize: 0
